@@ -15,7 +15,18 @@
 Правила для поиска форматов файлов лежат в файле **file_formats.yara**
 
 ### RAR
+Для версии RAR3 (2000-2002), RAR4(2011-2013) сигнатура 52 61 72 21 1A 07 00
+Для версии RAR5 (2013+) сигнатура 52 61 72 21 1A 07 01 00
 
-<img width="1077" height="143" alt="rar_1" src="https://github.com/user-attachments/assets/60d91de6-49b1-4a95-8380-912ac76601e0" />
+<img width="1077" height="143" alt="rar_1" src="rar_1.png" />
+ВСТАВИТЬ СКРИН С ДЕТЕКЦ ПРАВИЛА
+
+### ZIP
 
 
+
+### JPEG
+
+
+
+### MP3
