@@ -14,30 +14,32 @@
 
 ## 2. Запуск Yara
 Правила для поиска форматов файлов лежат в файле **file_formats.yara**
-<img width="784" height="581" alt="file_formats" src="file_formats.png" />
-Примеры файлов с необходимыми расширениями лежат в папке test_files.
+<img width="784" height="581" alt="file_formats" src="file_formats.png" />  
+Примеры файлов с необходимыми расширениями лежат в папке **test_files**.
 
 ### RAR
 sample_rar4.rar в формате RAR4:
-<img width="1387" height="132" alt="rar4" src="rar4.png" />
-
+<img width="1387" height="132" src="rar4.png" />
 sample_rar5.rar в формате RAR5:
-<img width="1387" height="132" alt="rar4" src="rar5.png" />
+<img width="1387" height="132" src="rar5.png" />
 
 ### ZIP
+Архив yara-4.5.4.zip:
+<img width="1420" height="205" src="yara-4.5.4.png" />
 Пустой архив empty.zip:
-<img width="1377" height="140" alt="empty_zip.png" />
-
-
+<img width="1377" height="140" src="empty_zip.png" />
 
 ### JPEG
-
-
+JPEG/JFIF (с метаданными для совместимости между различными устройствами)
+<img width="1413" height="244" src="jpeg_jfif.png" />
+JPEG/EXIF (с метаданными камеры)
+<img width="1276" height="189" src="jpeg_exif.png" />
 
 ### MP3
+<img width="1416" height="201" alt="mp3" src="mp3.png" />
 
 
 
 ### Вывод после команды yara file_formats.yar test_files:
-<img width="579" height="150" alt="output.png" />
+<img width="582" height="120" src="out.png" />
 
